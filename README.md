@@ -58,7 +58,9 @@ https://p22.com/musicfont/
 The program on the site is a basic version of font called P22 Music Pro. This font was originally conceptualized as a companion to the John Cage text font, based on the composer’s handwriting, and would allow for any text to be converted into musical notation. According to the site, the proposal was rejected by the John Cage trust. The generator the on the site follows the original proposal, and outputs both sheet music and a MIDI file for use. 
 
 My settings for the generator were:
+
 BPM 120
+
 Instrument: ‘Choir Aahs’
 
 GarageBand was used to convert the .MIDI files into .mp3's for use with Minim.
