@@ -47,9 +47,13 @@ The end conceptual goal is an installation or AR interactive environment wherein
 The service I used to convert the text to music will lose support on most browsers this December due to Flash Player. I need to recreate the program or build my own tool from scratch. As it turns out, I’ve actually done a very basic version of this in the past, using Python. This should be my next priority, now that I've proved the concept.
 
 ## Installation and Operation
+If you wanted to try running it yourself:
+
 To install the program, you need Processing version 3.5.4, and the Minim library to be installed into your client. Beyond that, double clicking on any of the .pde files should open the software to be run.
 
 Before starting, I STRONGLY recommend lowering your computer volume. Any higher than about 15% and it gets very shrill for some reason. This is a known issue.
+
+You may also notice two commented out secondary files, Spectrum_FFT_Analysis.pde, and dataSaver.pde. These exist as a test for pulling and displaying color data from the audio using numbers gathered from the AudioPlayer object's data.
 
 ## Resources Used
 P22.com Information:
