@@ -20,22 +20,18 @@ int idx;
 
 //begin text code
 PFont font;
-
 int counter = 0;
+//boolean v1 = false;
 
+//declaring a shape and some vectors
+//if this works the way i think it will, logic dictates we could have multiple of these in an array later?
+PShape antinous;
 
-boolean v1 = false;
+PVector axis1 = new PVector(1.0, 0.0, 0.0);
+PVector axis2 = new PVector(1.0, 1.0, 0.0);
+PVector axis3 = new PVector(1.0, 1.0, 1.0);
 
-//load FFT analyzer for frequency
-//FFT spectrum;
-
-
-//loading a custom class
-//dataSaver mySaver;
-
-
-boolean saved = false;
-boolean pressed = false;
+float half;
 
 //tells the program which tracks are playing
 boolean v1_playing = false;
@@ -57,37 +53,40 @@ void setup() {
   textFont(font, 24);
   
   //noLoop();
-  frameRate(10); //change if plan B ends up working
+  frameRate(20); //change if plan B ends up working
   
   Minim m = new Minim (this);
   for (String s : songPath) voices[idx++] = m.loadFile(s, 1024);
-     
-  /* https://forum.processing.org/two/discussion/13521/minim-help-with-volume-control */ 
-  /* these functions are only for checking to see if the information is actually loading */
-  
-  //println("bufferSize() " + pVoice.bufferSize());
-  //println("sampleRate() " + pVoice.sampleRate());
-  
+    
     println("Setup complete.");
     
-        
-  //mySaver = new frameSaver(fft.specSize(), data + frequencyDest + "fftanalysis_" + counter++ + ".txt");
-  //counter++;
- 
+  /* loading in a shape for no reason other than to see if this will work 
+     note that the obj file MUST match the .mtl file in your data folder */
+  half = height * 0.5; 
+  antinous = loadShape("gaygod.obj");
+  antinous.setFill(0xffff007f);
+    
+  //figure out why the minim gain settings broke the whole thing later so we can set a reasonable volume
   
+  /* these functions are only for checking to see if the information is actually loading */
+  //println("bufferSize() " + pVoice.bufferSize());
+  //println("sampleRate() " + pVoice.sampleRate());
+       
 }
 
 void draw() { 
   fill(255);
+  shaper();
   //print(idx + 1, '\t');
   if (idx >= 0 & idx < voices.length) { 
     voices[idx].play();
-    
   }
   typeWriter();
+  
 }
 
 //this is hopefully cleaner than the other versions
+//changes the track on key press and triggers the next line to output
 void keyPressed() {
   idx = keyCode - '1';
   
@@ -192,37 +191,10 @@ void keyPressed() {
     voices[7].pause();
     }
   } 
+  
   clear();
   redraw();
 }
-  
-  //nextTrack();
-  //fftSpectrumDraw();
-    
-  //FFT spectrum = new FFT(pVoice.bufferSize(), pVoice.sampleRate());  
-  
-  //spectrum.forward(pVoice.mix);
-  
-  //real = spectrum.getSpectrumReal();
-  //img = spectrum.getSpectrumImaginary();
-  
-  //int offsetX = (width - spectrum.specSize())/2;
-   
-  //for (int i = 0; i < pVoice.bufferSize(); i++){
-  //  //float a = fft.getBand(i);
-  //  //mySaver.setElement(a);
-  //  stroke(real[i] * 25, img[i] * 25, spectrum.getBand(i)*7, 170);
-  //  line (i + offsetX, height/2, i + offsetX + real[i] * 20, height/2 + img[i] * 20);
-  //  //line(i, height, i, height - spectrum.getBand(i)*8);
-  //}
-  
-  //mySaver.update();
-  
-  //if (pressed & !saved) {
-  //  mySaver.write();
-  //  saved = true;
-  //}
-
 
 void stop(){
   minim.stop();

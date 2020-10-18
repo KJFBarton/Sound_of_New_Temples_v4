@@ -16,7 +16,8 @@ String [] stanzas = {
 
 //sometimes it will stop firing text on the seventh change
 //attempted fix with reordering the code, still bugged
-//fixed with resetting counter variable each time
+
+//!! fixed with resetting counter variable each time, still unstable
 
 //change to switch object later once stable
 void typeWriter(){
@@ -56,4 +57,4 @@ void typeWriter(){
       counter++;
       text(stanzas[8].substring(0, counter), 40, 40, width, height);
     }
-}
+  }
