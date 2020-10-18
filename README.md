@@ -55,6 +55,8 @@ Before starting, I STRONGLY recommend lowering your computer volume, especially 
 
 You may also notice two commented out secondary files, Spectrum_FFT_Analysis.pde, and dataSaver.pde. These exist as a test for pulling and displaying color data from the audio using numbers gathered from the AudioPlayer object's data.
 
+The repository will return to private after our crit on the 20th!
+
 ## Resources Used
 P22.com Information:
 https://p22.com/musicfont/
