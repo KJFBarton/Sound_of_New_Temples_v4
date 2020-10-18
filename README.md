@@ -78,6 +78,9 @@ Instrument: ‘Choir Aahs’
 
 GarageBand was used to convert the .MIDI files into .mp3's for use with Minim.
 
+Antinous as Dionysus comes courtesy of the ScantheWorld 3D model repository here:  
+https://www.myminifactory.com/object/3d-print-portrait-of-antinous-as-dionysus-33209
+
 ## Questions and Bug Reporting
 If you run into an error, please let me know via email @ kbarton@risd.edu. There are a few known bugs with the program as it stands, but it would be massively helpful to my learning if you share what issues you run into and why.
 
@@ -86,4 +89,4 @@ If you run into an error, please let me know via email @ kbarton@risd.edu. There
 - 10/18/2020: Project documentation added to README.
 - 10/18/2020: Custom classes removed.
 - 10/18/2020: OBJ implemented.
-- 10/18/2020: Amended README with operating instructions.
+- 10/18/2020: Amended README with operating instructions and credits.
