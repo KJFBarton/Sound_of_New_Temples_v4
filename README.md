@@ -1,4 +1,4 @@
-# What do the temples of now sound like?
+# What do the temples of a failed future sound like?
  
 ```
 [N]ot ambience, not tone, style, or aesthetics… but tempo, rhythm, and 
