@@ -51,7 +51,7 @@ If you wanted to try running it yourself:
 
 To install the program, you need Processing version 3.5.4, and the Minim library to be installed into your client. Beyond that, double clicking on any of the .pde files should open the software to be run.
 
-Before starting, I STRONGLY recommend lowering your computer volume. Any higher than about 15% and it gets very shrill for some reason. This is a known issue.
+Before starting, I STRONGLY recommend lowering your computer volume, especially when wearing headphones. Any higher than about 15% and it gets very shrill for some reason. This is a known issue.
 
 You may also notice two commented out secondary files, Spectrum_FFT_Analysis.pde, and dataSaver.pde. These exist as a test for pulling and displaying color data from the audio using numbers gathered from the AudioPlayer object's data.
 
