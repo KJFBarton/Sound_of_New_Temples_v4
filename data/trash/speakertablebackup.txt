@@ -1,0 +1,33 @@
+//// group of lines from the Speaker
+
+//String [] stanzas = {
+  
+//    "Refine\nRefinement\nRefining\nReference\nReverence\nRhythm",
+//    "A temple\nA temple to haunted media\nA temple to our failed futures\nA temple, I think, to failure as a whole",
+//    "This is a mistake\n- .... .. ... / .. ... / .- -. / ..- -. .-.. .- .-- ..-. ..- .-.. / .- ... ... . -- -... .-.. -.--\nThis is an altar",
+//    "An altar to the new\nBuilt on the ashes of the old\nThe world is a wasteland",
+//    "The temple guardians, monsters\nThe minotaur, Macintosh, Microsoft",
+//    "The sound of the halls, unintelligible noise\n.- / -.-. .... .- -. - / --- ..-. / -.. --- - ... / .- -. -.. / -.. .- ... .... . ...",
+//    "A god of failure walks the halls\nWe pay penance with our privacy",
+//    "The noise of a machine\nThe machine is watching you",
+//    "Hero, you don't belong here\n.-- . / .- .-. . / ... . .-. ...- .. -. --. / .- -. / --- .-. -.. . .-. / - --- / -.. .. ... .--. . .-. ... .",
+
+//};
+
+
+////String [] getSpeakerVoiceTableStrings() {
+////  String [] speakerVoiceTableRow = new String [0];
+  
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "Refine\nRefinement\nRefining\nReference\nReverence\nRhythm");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "A temple\nA temple to haunted media\nA temple to our failed futures\nA temple, I think, to failure as a whole");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "This is a mistake\n- .... .. ... / .. ... / .- -. / ..- -. .-.. .- .-- ..-. ..- .-.. / .- ... ... . -- -... .-.. -.--\nThis is an altar");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "An altar to the new\nBuilt on the ashes of the old\nThe world is a wasteland");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "The temple guardians, monsters\nThe minotaur, Macintosh, Microsoft");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "The sound of the halls, unintelligible noise\n.- / -.-. .... .- -. - / --- ..-. / -.. --- - ... / .- -. -.. / -.. .- ... .... . ...");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "A god of failure walks the halls\nWe pay penance with our privacy");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "The noise of a machine\nThe machine is watching you");
+////  speakerVoiceTableRow = append(speakerVoiceTableRow, "Hero, you don't belong here\n.-- . / .- .-. . / ... . .-. ...- .. -. --. / .- -. / --- .-. -.. . .-. / - --- / -.. .. ... .--. . .-. ... .");
+  
+////return speakerVoiceTableRow;
+
+////}
