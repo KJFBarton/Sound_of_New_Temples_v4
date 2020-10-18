@@ -46,14 +46,21 @@ The end conceptual goal is an installation or AR interactive environment wherein
 ## What needs to happen next?
 The service I used to convert the text to music will lose support on most browsers this December due to Flash Player. I need to recreate the program or build my own tool from scratch. As it turns out, I’ve actually done a very basic version of this in the past, using Python. This should be my next priority, now that I've proved the concept.
 
+I need easier user interfacing! Buttons, or mouse clicks as triggers, rather than the keyCode system.
+
+Volume controls are a must. Either hard code the volume, or make it adjustable.
+
 ## Installation and Operation
-If you wanted to try running it yourself:
-
+If you wanted to try running it yourself:  
 To install the program, you need Processing version 3.5.4, and the Minim library to be installed into your client. Beyond that, double clicking on any of the .pde files should open the software to be run.
-
 Before starting, I STRONGLY recommend lowering your computer volume, especially when wearing headphones. Any higher than about 15% and it gets very shrill for some reason. This is a known issue.
 
-You may also notice two commented out secondary files, Spectrum_FFT_Analysis.pde, and dataSaver.pde. These exist as a test for pulling and displaying color data from the audio using numbers gathered from the AudioPlayer object's data.
+To run the software:  
+1. Click the play button after opening the program.  
+2. Click on the canvas window.  
+3. Press the '1' key on your keyboard (not the numpad, it seems to hate the numpad),  
+the first stanza/song will play. Listen to the end.  
+4. Repeat up until you've pressed the '9' key. That's the last track.
 
 The repository will return to private after our crit on the 20th!
 
@@ -77,3 +84,6 @@ If you run into an error, please let me know via email @ kbarton@risd.edu. There
 ## Changelog
 - 10/18/2020: Pushed to Github officially.
 - 10/18/2020: Project documentation added to README.
+- 10/18/2020: Custom classes removed.
+- 10/18/2020: OBJ implemented.
+- 10/18/2020: Amended README with operating instructions.
