@@ -48,7 +48,11 @@ The service I used to convert the text to music will lose support on most browse
 
 I need easier user interfacing! Buttons, or mouse clicks as triggers, rather than the keyCode system.
 
-Volume controls are a must. Either hard code the volume, or make it adjustable.
+Volume controls are a must. Either hard code the volume, or make it adjustable.  
+
+Adding more models, or morphing what's on screen.
+
+Get the model to respond to the actual sound, ideally.
 
 ## Installation and Operation
 If you wanted to try running it yourself:  
@@ -90,3 +94,4 @@ If you run into an error, please let me know via email @ kbarton@risd.edu. There
 - 10/18/2020: Custom classes removed.
 - 10/18/2020: OBJ implemented.
 - 10/18/2020: Amended README with operating instructions and credits.
+- 10/19/2020: Amended README.
