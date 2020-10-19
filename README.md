@@ -88,6 +88,11 @@ https://www.myminifactory.com/object/3d-print-portrait-of-antinous-as-dionysus-3
 ## Questions and Bug Reporting
 If you run into an error, please let me know via email @ kbarton@risd.edu. There are a few known bugs with the program as it stands, but it would be massively helpful to my learning if you share what issues you run into and why.
 
+## Known bugs
+1. Pressing keys in rapid succession will sometimes break the text and the song order.
+2. Speed of typeWriter function outpaces the audio.
+3. Model position is reset every time a song changes.
+
 ## Changelog
 - 10/18/2020: Pushed to Github officially.
 - 10/18/2020: Project documentation added to README.
