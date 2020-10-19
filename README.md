@@ -100,3 +100,4 @@ If you run into an error, please let me know via email @ kbarton@risd.edu. There
 - 10/18/2020: OBJ implemented.
 - 10/18/2020: Amended README with operating instructions and credits.
 - 10/19/2020: Amended README with grammar and title corrections.
+- 10/19/2020: Made public ahead of critique.
