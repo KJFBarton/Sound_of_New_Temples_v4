@@ -76,13 +76,12 @@ void setup() {
 
 void draw() { 
   fill(255);
-  shaper();
   //print(idx + 1, '\t');
   if (idx >= 0 & idx < voices.length) { 
     voices[idx].play();
   }
   typeWriter();
-  
+  shaper(); //add more figures to shaper
 }
 
 //this is hopefully cleaner than the other versions
