@@ -3,7 +3,7 @@
 ```
 [N]ot ambience, not tone, style, or aesthetics… but tempo, rhythm, and 
 velocity is what the mythology of the 21st century will be all about…
-- KL, Birth of the New Mythology (May/June 2019, Adbusters Magazine)
+- KL, Birth of a New Mythology (May/June 2019, Adbusters Magazine)
 ```
 ## What is this project?
 Using a service that converts text to musical notation, I have converted the stanzas of the poem below into songs, of sorts. 
@@ -99,4 +99,4 @@ If you run into an error, please let me know via email @ kbarton@risd.edu. There
 - 10/18/2020: Custom classes removed.
 - 10/18/2020: OBJ implemented.
 - 10/18/2020: Amended README with operating instructions and credits.
-- 10/19/2020: Amended README.
+- 10/19/2020: Amended README with grammar and title corrections.
